@@ -17,7 +17,7 @@
             "source_ami_filter": {
               "filters": {
               "virtualization-type": "hvm",
-              "name": " IOanyT Innovations Kotlin 1.7 - Ubuntu 22.04-fbf7128e-5547-4589-b649-2ef14b35feaf",
+              "name": "Apps4Rent-AWSCLI-Ubuntu22.04LTS-5a73fc8d-2dd0-4633-9410-a9149dd2bae2",
               "root-device-type": "ebs"
               },
               "owners": ["679593333241"],
