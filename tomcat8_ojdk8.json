@@ -6,21 +6,21 @@
     "builders": [
         {
             "access_key": "{{user `aws_access_key`}}",
-            "ami_name": "Tomcat8_OJDK8_AMI",
+            "ami_name": "java-ubuntu-networknuts",
             "instance_type": "t2.micro",
             "region": "ap-south-1",
             "secret_key": "{{user `aws_secret_key`}}",
-            "security_group_id":"sg-0f2da5a7af5a3dd98",
-            "ssh_keypair_name":"tomcat-key",
-            "ssh_private_key_file":"tomcat-key.pem",
+            "security_group_id":"sg-049c90caa46e033e7",
+            "ssh_keypair_name":"jenkins-java-packer",
+            "ssh_private_key_file":"jenkins-java-packer.pem",
             "associate_public_ip_address":"true",
             "source_ami_filter": {
               "filters": {
               "virtualization-type": "hvm",
-              "name": "ztna_ubuntu2004",
+              "name": "ap-south-1 image for x86_64 Ubuntu_20.04",
               "root-device-type": "ebs"
               },
-              "owners": ["704109570831"],
+              "owners": ["374168611083"],
               "most_recent": true
             },
             "ssh_username": "ubuntu",
