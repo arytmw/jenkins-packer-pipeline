@@ -17,7 +17,7 @@
             "source_ami_filter": {
               "filters": {
               "virtualization-type": "hvm",
-              "name": "aws-marketplace/ IOanyT Innovations Kotlin 1.7 - Ubuntu 22.04-fbf7128e-5547-4589-b649-2ef14b35feaf",
+              "name": " IOanyT Innovations Kotlin 1.7 - Ubuntu 22.04-fbf7128e-5547-4589-b649-2ef14b35feaf",
               "root-device-type": "ebs"
               },
               "owners": ["679593333241"],
