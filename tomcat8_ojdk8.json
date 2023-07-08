@@ -17,10 +17,10 @@
             "source_ami_filter": {
               "filters": {
               "virtualization-type": "hvm",
-              "name": "Apps4Rent-AWSCLI-Ubuntu22.04LTS-5a73fc8d-2dd0-4633-9410-a9149dd2bae2",
+              "name": "ztna_ubuntu2004",
               "root-device-type": "ebs"
               },
-              "owners": ["679593333241"],
+              "owners": ["704109570831"],
               "most_recent": true
             },
             "ssh_username": "ubuntu",
